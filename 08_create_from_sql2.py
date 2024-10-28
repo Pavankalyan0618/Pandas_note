@@ -8,3 +8,5 @@ functions.print_it('df directly from query result: ', countries_df2)
 # create a dataframe that uses sales data and stores it to a dataframe <<<< TO DO
 sales_df = pd.read_sql('select*from sales', connection)
 functions.print_it('my_sales: ', sales_df)
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
