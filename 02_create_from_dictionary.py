@@ -5,3 +5,5 @@ df2 = pd.DataFrame(adict)
 functions.print_it('original dictionary', adict)
 functions.print_it('Created from a dictionary', df2)
 # create another dataframe from a dictionary and print it <<< TO DO
+dictionary2 = {'product name:' : ['apple', 'banana', 'cherry'] , 'price': [2.99, 3.99, 5.9] }
+
